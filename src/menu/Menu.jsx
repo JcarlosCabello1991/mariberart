@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Menu.css';
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material'; // Importamos los iconos de Material UI
+import { menuMenu } from '../MenuContext/MenuContext';
 
 const navItems = [
   { name: 'Destacados', path: '/destacados' },
@@ -16,7 +17,8 @@ const navItems = [
 
 export default function Menu() {
   const [isMobile, setIsMobile] = React.useState(window.innerWidth < 1053);
-  const [itemSelected, setItemSelected] = React.useState('Destacados');
+  const { itemSelected, setItemSelected } = menuMenu();
+  // const [itemSelected, setItemSelected] = React.useState('Destacados');
   const [menuOpen, setMenuOpen] = React.useState(false);
   const navigate = useNavigate();
 
