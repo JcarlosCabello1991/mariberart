@@ -39,7 +39,7 @@ export default function Menu() {
 
   return (
     <div className={`${isMobile ? 'menuMobile' : 'menu'}`}>
-      <img className="logo" src="../../public/Logo_mariberart-sinfondo.png" alt="MariBerArt" />
+      <img className="logo" src="../../Logo_mariberart-sinfondo.png" alt="MariBerArt" />
 
       {
       isMobile ? (
