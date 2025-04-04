@@ -1,0 +1,63 @@
+h1{
+  color: black;
+}
+
+.liveArtSection{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li{
+  font-weight: bold;
+  text-align: start;
+}
+
+.liveArt{
+  width: 80%;
+  max-width: 900px;
+  justify-items: center;
+}
+
+.liveArtPictures{
+  width: 100%;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.imgliveArt{
+  width: 200px;
+  /* height: 290px; */
+}
+
+.imgContainer{
+  width: 200px;
+  height: fit-content;
+  align-items: center;
+}
+
+.liveArtContainer{
+  width: 80%;
+}
+
+.spanContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 1, 1, 0.7);
+  width: 200px;
+  height: 50px;
+}
+
+.proccessContainer{
+  width: 100%;
+}
+
+.imgliveArtProccess{
+  margin-top: 30px;
+  width: 100%;
+}
