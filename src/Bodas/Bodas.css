@@ -16,8 +16,11 @@ li{
 }
 
 .bodas{
+  display: flex;
+  flex-direction: column;
   width: 80%;
   max-width: 900px;
+  align-items: center;
   justify-items: center;
 }
 
