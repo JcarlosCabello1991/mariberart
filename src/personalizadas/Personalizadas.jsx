@@ -2,6 +2,9 @@ import React from "react";
 import './Personalizadas.css'
 
 export default function Personalizadas() {
+  const form = (
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf46LAXYpuK9kjedrZw6GrqMeRBbqVCOk7OiVxJxWeYFmXLGA/viewform" target="_blank" rel="noopener noreferrer">formulario</a>
+  )
   return (
     <div className='personalizadasSection'>
       <div className='personalizadas'>
@@ -35,6 +38,9 @@ export default function Personalizadas() {
             </div>
           </div>
         </div>   
+        <p style={{width: '100%', textAlign: 'justify'}}>
+          Cuéntame tu idea rellenando el siguiente {form} y te enviaré un presupuesto que se ajuste a la misma sin compromiso.
+        </p>
       </div>      
     </div>
   );

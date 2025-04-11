@@ -5,7 +5,7 @@ export default function SobreMi() {
 
   return(
     <div className="sobreMi">
-      <h1>Sobre Mi</h1>
+      <h1>SOBRE MI</h1>
       <div className="sobreMiContainer">
         <img className="maribert" alt="maribert" src="../../maribert.PNG"/>
         <p className="description">

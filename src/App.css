@@ -46,7 +46,8 @@
 .app{
   width: 100%;
   min-height: 100vh; /* En lugar de height */
-  background-color: white;
+  /* background-color: white; */
   flex-grow: 1; /* Permite que crezca si hay más contenido */
   padding-bottom: 50px;
+  z-index: 1;
 }
