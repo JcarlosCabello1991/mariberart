@@ -25,7 +25,7 @@ export default function LiveArt(){
           </div> 
         </div>
         <p style={{width: '100%', textAlign: 'justify'}}>
-          Si quieres contar con este servicio tan especial en tu evento, envíame un {link} especificando:
+          Si quieres contar con este servicio tan especial en tu evento, envíame un {link} a mariberart7@gmail.com, especificando:
         </p>
         <ul style={{width: '100%', textAlign: 'justify'}}>
           <li>Nombre y apellidos</li>
