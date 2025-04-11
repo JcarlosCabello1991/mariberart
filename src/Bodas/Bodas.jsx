@@ -3,7 +3,7 @@ import './Bodas.css'
 
 export default function Bodas() {
 
-  const email = 'mariberart7@gmail';
+  const email = 'mariberart7@gmail.com';
   const link = (<a href={`mailto:${email}`} style={{ color: 'blue', textDecoration: 'underline' }}>
     correo
   </a>);
@@ -67,7 +67,7 @@ export default function Bodas() {
           </div>
         </div>
         <p style={{width: '100%'}}>
-          Si te interesa alguno de estos servicios para tu enlace, envíame un {link} especificando:
+          Si te interesa alguno de estos servicios para tu enlace, envíame un {link} a mariberart7@gmail especificando:
         </p>
         <ul style={{width: '100%'}}>
           <li>Nombre y apellidos</li>
