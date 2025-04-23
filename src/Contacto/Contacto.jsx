@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contacto.css";
 
 export default function Contacto() { 
 
-  const email = 'mariberart7@gmail';
+  const email = 'mariberart7@gmail.com';
 
   const userName = 'mariberart';
 
@@ -20,6 +20,7 @@ export default function Contacto() {
         >
           @{userName}
         </a>);
+
   return (  
     <div className="contactoSection">
       <div className="contacto">
@@ -28,6 +29,7 @@ export default function Contacto() {
           Si tienes alguna idea diferente a las que has encontrado por aquí, rellena sin compromiso el siguiente formulario y te contactaré sin falta en las próximas horas. 
           También puedes escribirme por correo a {link}, y estar al día de todas las novedades a través de mi Instagram {instagram}.
         </p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfG8njkmg7aCFhTkjKTe5Vz8RYiPuVLgDbbtBGo2pq_f08Rlw/viewform?embedded=true" width="100%" height="1263" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
       </div>
       </div>
   );
